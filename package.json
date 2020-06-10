@@ -1,0 +1,19 @@
+{
+  "name": "http-service-proxy",
+  "version": "1.0.1",
+  "description": "http-service-proxy",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyd317/http-service-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyd317/http-service-proxy/issues"
+  },
+  "homepage": "https://github.com/zyd317/http-service-proxy#readme"
+}
