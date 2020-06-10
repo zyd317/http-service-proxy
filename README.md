@@ -1,17 +1,26 @@
 # http-service-proxy
 http-service-proxy
 
-### usage
-0. 
-`npm install http-service-proxy --save`
+## Table of Contents
 
-1. 
+<!-- MarkdownTOC autolink=true bracket=round depth=2 -->
+
+- [Install](#install)
+- [Example](#example)
+
+<!-- /MarkdownTOC -->
+
+## Install
+
+```bash
+$ npm install --save /http-service-proxy
 ```
-    const proxySub = require('http-service-proxy');
-    const API_PROXY = require('./API_PROXY');
-    express.Router()
-        .use('/http/:key', (req, res) => proxySub(req, res, {
-            ApiConfig,
-            Logger: req.logger
-        }));
+
+## Example
+```javascript
+const express = require('express');
+const proxy = require('http-service-proxy');
+const ApiConfig = require('./ApiConfig');
+const proxySub = (req, res) => proxy(req, res, {ApiConfig, Logger: req.logger});
+express.Router().use('/http/:key', proxySub);
 ```

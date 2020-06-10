@@ -1,16 +1,21 @@
 {
   "name": "http-service-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "http-service-proxy",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "proxy",
+    "http",
+    "express"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zyd317/http-service-proxy.git"
   },
-  "author": "",
+  "author": "zhaoyidi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zyd317/http-service-proxy/issues"
